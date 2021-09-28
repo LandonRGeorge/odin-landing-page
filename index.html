@@ -9,65 +9,73 @@
 </head>
 <body>
   <header class="navbar">
-    <span class="logo">Header Logo</span>
-    <nav>
-      <ul>
-        <li><a href="#">header link one</a></li>
-        <li><a href="#">header link two</a></li>
-        <li><a href="#">header link three</a></li>
-      </ul>
-    </nav>
+    <div class="content">
+      <span class="logo">Header Logo</span>
+      <nav>
+        <ul>
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main>
     <section class="hero">
-      <div>
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-        <button>Sign up</button>
+      <div class="content">
+        <div>
+          <h1>This website is awesome</h1>
+          <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+          <button class="btn">Sign up</button>
+        </div>
+        <div><img src="https://via.placeholder.com/400x200?text=this+is+a+placeholder+for+an+image" alt="dummy hero image"></div>
       </div>
-      <div><img src="https://via.placeholder.com/400x200?text=this+is+a+placeholder+for+an+image" alt="dummy hero image"></div>
     </section>
     <section class="info">
-      <h2>Some random information</h2>
-        <div class="info-gallery">
-          <figure>
-            <img src="https://via.placeholder.com/150" alt="dummy image 1"></img>
-            <figcaption>this is some subtext under an illustration or image</figcaption>
-          </figure>
-          <figure>
-            <img src="https://via.placeholder.com/150" alt="dummy image 2"></img>
-            <figcaption>this is some subtext under an illustration or image</figcaption>
-          </figure>
-          <figure>
-            <img src="https://via.placeholder.com/150" alt="dummy image 3"></img>
-            <figcaption>this is some subtext under an illustration or image</figcaption>
-          </figure>
-          <figure>
-            <img src="https://via.placeholder.com/150" alt="dummy image 4"></img>
-            <figcaption>this is some subtext under an illustration or image</figcaption>
-          </figure>
-        </div>
+      <div class="content">
+        <h2>Some random information</h2>
+          <div class="info-gallery">
+            <figure>
+              <img src="https://via.placeholder.com/100?text=image+1" alt="dummy image 1"></img>
+              <figcaption>this is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure>
+              <img src="https://via.placeholder.com/100?text=image+2" alt="dummy image 2"></img>
+              <figcaption>this is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure>
+              <img src="https://via.placeholder.com/100?text=image+3" alt="dummy image 3"></img>
+              <figcaption>this is some subtext under an illustration or image</figcaption>
+            </figure>
+            <figure>
+              <img src="https://via.placeholder.com/100?text=image+4" alt="dummy image 4"></img>
+              <figcaption>this is some subtext under an illustration or image</figcaption>
+            </figure>
+          </div>
+      </div>
       
     </section>
-    <section>
-      <figure>
+    <section class="quote">
+      <figure class="content">
         <blockquote>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</blockquote>
         <figcaption><cite>Thor, God of Thunder</cite></figcaption>
       </figure>
     </section>
-    <section>
-      <div>
-        <div>
-          <h2>Call to action! It's time!</h2>
-          <p>Sign up for our product by clicking that button right over there!</p>
+    <section class="call-to-action">
+        <div class="content">
+          <div class="text">
+            <h2>Call to action! It's time!</h2>
+            <p>Sign up for our product by clicking that button right over there!</p>
+          </div>
+          <div class="sign-up">
+          <button class="btn">Sign up</button>
         </div>
-        <button>Sign up</button>
-      </div>
+        </div>
     </section>
   </main>
   <footer class="footer">
-    <span>
-      Copyright The odin Project 2021
+    <span class="content">
+      Copyright The Odin Project 2021
     </span>
   </footer>  
     
